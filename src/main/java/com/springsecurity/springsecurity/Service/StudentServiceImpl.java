@@ -23,7 +23,7 @@ public class StudentServiceImpl implements StudentService{
 				Arrays.asList("Learn Maven", "Import Project", "First Example",
 						"Second Example"));
 
-		Student ranga = new Student("Student1", "Ranga Karanam",
+		Student ranga = new Student("Student1", "Suman Kumar",
 				"Hiker, Programmer and Architect", new ArrayList<>(
 						Arrays.asList(course1, course2)));
 
