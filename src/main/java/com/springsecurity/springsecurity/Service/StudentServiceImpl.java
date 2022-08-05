@@ -19,7 +19,7 @@ public class StudentServiceImpl implements StudentService{
 		Course course1 = new Course("Course1", "Spring", "10 Steps",
 				Arrays.asList("Learn Maven", "Import Project", "First Example",
 						"Second Example"));
-		Course course2 = new Course("Course2", "Spring MVC", "10 Examples",
+		Course course2 = new Course("Course2", "Spring-boot", "10 Examples",
 				Arrays.asList("Learn Maven", "Import Project", "First Example",
 						"Second Example"));
 
