@@ -13,7 +13,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t spring-security-0.0.1-SNAPSHOT .'
+                    sh 'docker build -t spring-security-jenkins .'
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u sumansharp -p ${time2work}'
 
 }
-                   sh 'docker push spring-security-0.0.1-SNAPSHOT'
+                   sh 'docker push spring-security-jenkins'
                 }
             }
         }
